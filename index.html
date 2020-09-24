@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Web Developer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="site-wide-alert alert alert-warning">Vacant!
+                </div>
+            </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">CodeDoc</a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navItemDopdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Technologies
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navItemDopdownMenuLink">
+                            <a class="dropdown-item" href="#">HTML</a>
+                            <a class="dropdown-item" href="#">CSS</a>
+                            <a class="dropdown-item" href="#">Django</a>
+                            <a class="dropdown-item" href="#">JavaScript</a>    
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/">Get quote</a></li>
+                </ul> 
+            </div>  
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Fast, Agile, Reponsive</i></p>
+                <a href="/" class="btn btn--cta btn--red">Get quote</a>
+        </nav>
+    </div>
+    <div class="container-fluid callout-container">
+    <!-- Callout -->
+    <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">Light, creative web designs</h1>
+                    <hr class="block-divider block-divider--orange">
+                    <p class="lead">Please contact-us for a quote</p>
+                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#quoteModal">Get Quote</button>
+                </section>
+            </div>
+        </div>
+    <!--/.callout-->
+    </div>
+
+    <!-- Quotes -->
+    <div class="container-wrapper">
+    <div class="container quotes-container content-container">
+        <section class="quotes">
+            <div class="row">
+                <div class="col-12 page-header">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                    <hr class="block-divider block-divider--short">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/guy-image.png" class="rounded-circle mr-3" height="100">
+                        </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>Great to work with, delivered everything and more!</p>
+                                    <p>Joe Bloggs</p>
+                                </blockquote>
+                            </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/girl-image.png" class="rounded-circle mr-3" height="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>Increased our revenue substantially</p>
+                                <p>Joe Bloggs</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/.quotes-->
+    </div>
+    </div>
+    
+    <!-- Features -->
+    <div class="container-wrapper container-wrapper--red">
+    <div class="container features-container content-container">
+        <section class="features ">
+            <div class="row">
+                <div class="col-12 page-header">
+                    <h2 class="text-uppercase">Portfolio:</h2>
+                    <hr class="block-divider block-divider--short block-divider--white">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-edit d-none d-sm-block"></i> Proejct 1 <span class="badge badge-success">New!</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-small btn-primary">Read more</a></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-edit d-none d-sm-block"></i> Proejct 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-small btn-primary">Read more</a></p>
+                    </div>
+                </div>
+
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-edit d-none d-sm-block"></i> Proejct 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-small btn-primary">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--/.Features-->
+    </div>
+    </div>
+    <!-- <section class="Technologies">
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+            <tr>
+                <td>Django</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+        </table>
+    </section> -->
+
+<div class="modal" tabindex="-1" id="quoteModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Get Quote!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="Password">Password</label>
+    <input type="password" class="form-control" id="Password" placeholder="Password">
+  </div>
+
+    <div class="form-group">
+        <label for="repeatPassword">Repeat Password</label>
+        <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+    </div>
+
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
